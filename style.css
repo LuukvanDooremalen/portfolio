@@ -1,0 +1,313 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+Body{
+background: #177E89;
+overflow-x: hidden;
+}
+
+.maincont{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.container{
+    height: 100vh;
+    width: 100vw;
+    
+}
+
+#press{
+    position: absolute;
+    top: 39%;
+    left: 83%;
+    transform: translate(-50%,-50%);
+    width: 15vh;
+    transform: rotate(25deg);
+/* z-index: 1; */
+}
+h1{
+    font-family: 'Anton', sans-serif;
+    font-size: 80px;
+    color: white;
+    /* margin-left: 10vw; */
+    
+}
+
+h2{
+    font-family: 'Antonio', sans-serif;
+    font-size: 35px;
+    /* color: white; */
+    /* margin-left: 10vw; */
+    
+}
+.white{
+    color: white;
+}
+.yellow{
+    color: #f4c95b;
+}
+
+.container {
+    position: relative;
+    height: 100vh;
+}
+
+.centered-element {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+#lamp{ 
+/* position: absolute;
+left: 65%; */
+float: right; 
+left: 65%;
+top: 0; 
+/* left: 70vw; */
+height: 175vh;
+/* z-index: 2; */
+}
+
+.knopje{
+    /* float: right; */
+    position: absolute;
+    top: 50%;
+    left: 85%;
+    transform: translate(-50%,-50%);
+    width: 15vh;
+}
+
+p{
+    font-family: 'Antonio', sans-serif;
+    font-size: 25px;
+    color: white;
+    line-height: 45px;
+    /* margin-left: 10vw; */
+}
+
+h3{ 
+    font-family: 'Anton', sans-serif;
+    font-size: 80px;
+    color: white;
+    /* margin-left: 10vw; */
+    width: 803px;
+    line-height: 120px;
+    /* margin-top: 375px; */
+    position: relative;
+}
+
+.arrow{
+    width: 300px;
+    float: left;
+    margin-left: 300px;
+    margin-top: 120px;
+}
+
+.clear{
+    clear: both;
+}
+.eerste-text{
+    float: left;
+    margin-top: 80px;
+    margin-left: 50px;
+    max-width: 810px;
+    /* margin-right: 100px; */
+}
+
+.ik{
+    margin-top: 50px;
+    float: left;
+    width: 375px;
+    /* border-radius: 50px; */
+}
+
+.text1{
+    margin-top: 25px;
+    max-width: 810px;
+    position: relative;
+    /* border: 2px solid black; */
+    /* border-radius: 10px solid black; */
+}
+
+
+
+@media screen and (max-width: 1376px) {
+    .eerste-text {
+        max-width: 500px;
+        margin-top: 10px;
+        /* clear: both; */
+        }
+    }
+    @media screen and (max-width: 1029px) {
+        .eerste-text {
+            max-width: 100%;
+            /* clear: both; */
+            text-align: center;
+            margin-left: 0px;
+            }
+
+            .ik{
+                float: none;
+                display: block;
+                margin: 0 auto;
+                margin-top: 50px;
+                
+            }
+
+            .arrow{
+                
+                padding-left: 160px;
+            }
+            
+    
+            #press{
+                left: 75%;
+                transform: rotate(-25deg);
+            }
+    }
+
+    @media screen and (max-width: 883px) {
+        .knopje{
+            /* float: right; */
+            
+            top: 20%;
+            
+        }
+
+        #press{
+            top: 9%;
+        }
+        .arrow{
+            display: block;
+            float: none;
+            margin: 0 auto;
+
+            margin-top: 50px;
+            padding-left: 120px;
+            position: relative;
+        }
+        h3{
+            font-size: 50px;
+            line-height: 70px;
+            /* margin-top: 600px;
+            clear: both; */
+        }
+        /* .text1{
+            
+            clear: both;
+        } */
+    }
+
+    @media screen and (max-width: 750px) {
+
+        .text1{
+            margin-top: 25px;
+            width: 100%;
+        }
+    }
+
+    @media screen and (max-width: 668px) {
+h3{
+    clear: left;
+    float: none;
+    margin-top: 600px;
+    width: 100%;
+    
+}
+.text1{
+    float: none;
+}
+#lamp{
+    float: left;
+    margin-left: 10%;
+    /* display: block;
+    margin: 0 auto; */
+    
+}
+
+.knopje{
+    /* float: right; */
+    
+    left: 75%;
+    
+}
+
+#press{
+    left: 60%;
+}
+    }
+
+
+    @media screen and (max-width: 510px) {
+
+.arrow{
+    width: 200px;
+}
+p{
+    font-size: 20px ;
+    line-height: 35px;
+}     
+h1{
+    font-size: 55px;
+    
+}   
+h2{
+    font-size: 30px;
+}
+
+.ik{
+    width: 250px;
+}
+
+
+    }
