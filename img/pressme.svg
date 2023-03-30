@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Laag_1" data-name="Laag 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 230.46 130.18">
+  <defs>
+    <style>
+      .cls-1 {
+        letter-spacing: .04em;
+      }
+
+      .cls-2 {
+        letter-spacing: .04em;
+      }
+
+      .cls-3 {
+        fill: #fff;
+        font-family: MarkerFelt-Wide, 'Marker Felt';
+        font-size: 52px;
+      }
+
+      .cls-3, .cls-4 {
+        isolation: isolate;
+      }
+
+      .cls-5 {
+        letter-spacing: .07em;
+      }
+
+      .cls-6 {
+        letter-spacing: .07em;
+      }
+
+      .cls-7 {
+        letter-spacing: .07em;
+      }
+
+      .cls-8 {
+        letter-spacing: .08em;
+      }
+
+      .cls-9 {
+        letter-spacing: .08em;
+      }
+    </style>
+  </defs>
+  <g class="cls-4">
+    <text class="cls-3" transform="translate(0 47.87)"><tspan class="cls-5" x="0" y="0">P</tspan><tspan class="cls-1" x="30.94" y="0">r</tspan><tspan class="cls-8" x="53.82" y="0">e</tspan><tspan class="cls-9" x="81.33" y="0">s</tspan><tspan class="cls-2" x="106.65" y="0">s </tspan><tspan class="cls-6" x="145.13" y="0">m</tspan><tspan class="cls-7" x="189.9" y="0">e</tspan><tspan class="cls-2" x="216.94" y="0">!</tspan></text>
+  </g>
+</svg>
