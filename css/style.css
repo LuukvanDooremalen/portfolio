@@ -515,8 +515,8 @@ h2{
 }
 
         .knopje{
-    height: 50px;
-    width: 170px;
+    height: 10px !important;
+    width: 10px !important;
 }
 
     }
